@@ -14,6 +14,7 @@
 		1C31CABE29C9D1D1006ED2D0 /* EasySobiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31CABD29C9D1D1006ED2D0 /* EasySobiTests.swift */; };
 		1C31CAC829C9D1D1006ED2D0 /* EasySobiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31CAC729C9D1D1006ED2D0 /* EasySobiUITests.swift */; };
 		1C31CACA29C9D1D1006ED2D0 /* EasySobiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31CAC929C9D1D1006ED2D0 /* EasySobiUITestsLaunchTests.swift */; };
+		1C31CAD929C9D9F4006ED2D0 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31CAD829C9D9F4006ED2D0 /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1C31CAC329C9D1D1006ED2D0 /* EasySobiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySobiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C31CAC729C9D1D1006ED2D0 /* EasySobiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySobiUITests.swift; sourceTree = "<group>"; };
 		1C31CAC929C9D1D1006ED2D0 /* EasySobiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySobiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C31CAD829C9D9F4006ED2D0 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		1C31CAAB29C9D1D0006ED2D0 /* EasySobi */ = {
 			isa = PBXGroup;
 			children = (
+				1C31CAD629C9D989006ED2D0 /* Views */,
 				1C31CAAC29C9D1D0006ED2D0 /* EasySobiApp.swift */,
 				1C31CAAE29C9D1D1006ED2D0 /* ContentView.swift */,
 				1C31CAB029C9D1D1006ED2D0 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				1C31CAC929C9D1D1006ED2D0 /* EasySobiUITestsLaunchTests.swift */,
 			);
 			path = EasySobiUITests;
+			sourceTree = "<group>";
+		};
+		1C31CAD629C9D989006ED2D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C31CAD829C9D9F4006ED2D0 /* OnBoardingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C31CAD929C9D9F4006ED2D0 /* OnBoardingView.swift in Sources */,
 				1C31CAAF29C9D1D1006ED2D0 /* ContentView.swift in Sources */,
 				1C31CAAD29C9D1D0006ED2D0 /* EasySobiApp.swift in Sources */,
 			);
