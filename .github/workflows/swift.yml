@@ -17,7 +17,7 @@ jobs:
     
     - name: Clean Build Xcode
       run: |
-      xcodebuild clean test -project EasySobi.xcodeproj \
-      -scheme EasySobi \
-      - destination 'platform=iOS Simulator,name=iPhone 13 Pro,OS=latest' \
-      -skip-testing: EasySobiUITests
+        xcodebuild clean test -project EasySobi.xcodeproj \
+        -scheme EasySobi \
+        -destination 'platform=iOS Simulator,name=iPhone 13 Pro,OS=latest' \
+        -skip-testing: EasySobiUITests
