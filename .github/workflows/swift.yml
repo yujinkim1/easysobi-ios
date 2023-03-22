@@ -15,8 +15,9 @@ jobs:
     - name: Checkout Branch
       uses: actions/checkout@v3
     
-    - name: Run build
-      run: swift build -v
-      
-    - name: Run test
-      run: swift test -v
+    - name: Clean Build Xcode
+      run: |
+      xcodebuild clean test -project EasySobi.xcodeproj \
+      -scheme EasySobi \
+      - destination 'platform=iOS Simulator,name=iPhone 13 Pro,OS=latest' \
+      -skip-testing: EasySobiUITests
