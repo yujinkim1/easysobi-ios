@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ChesterView: View {
+    
+    @State var chester: Chester? = nil
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if chester != nil {
+            ChesterView(chester: chester!)
+        } else if chester == nil {
+            CreateChesterView()
+        }
     }
 }
 
